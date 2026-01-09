@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A중학교 독서 동아리 '책울림'</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Song+Myung&display=swap"
+        rel="stylesheet">
+    <!-- Open Graph Meta Tags (Social Media Preview) -->
+    <meta property="og:title" content="A중학교 독서 동아리 '책울림'">
+    <meta property="og:description" content="책으로 여는 더 넓은 세상! 함께 읽고 성장하는 독서 동아리 홈페이지입니다.">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://your-website-url.com">
+    <meta property="og:type" content="website">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Smooth scrolling for the whole page */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-book-open"></i> A중학교 독서 동아리
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">동아리 소개</a></li>
+                <li><a href="#reading">이달의 독서</a></li>
+                <li><a href="#community">커뮤니티</a></li>
+                <li><a href="#gallery">활동 갤러리</a></li>
+                <!-- Notion Link Button -->
+                <li><a href="https://www.notion.so/2e3d736dcba780998a24f3a310b8f9c4?v=2e3d736dcba78046b91d000c324836c9&source=copy_link"
+                        target="_blank" class="btn-join">가입 신청 <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <span class="hero-subtitle">함께 읽고, 나누고, 성장하는</span>
+            <h1 class="hero-title">책으로 여는<br>더 넓은 세상</h1>
+            <p class="hero-description">
+                A중학교 독서 동아리에 오신 것을 환영합니다.<br>
+                매달 새로운 책과 함께 흥미진진한 토론이 펼쳐집니다.
+            </p>
+            <div class="hero-buttons">
+                <a href="#reading" class="btn btn-primary">이번 달 활동 보기</a>
+                <a href="https://www.notion.so/ko-kr" target="_blank" class="btn btn-secondary">지난 활동 모음</a>
+            </div>
+        </div>
+        <div class="hero-image-placeholder">
+            <!-- Replacing placeholder with a CSS graphic representation of books -->
+            <div class="book-graphic">
+                <div class="book book-1"></div>
+                <div class="book book-2"></div>
+                <div class="book book-3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">동아리 소개</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fa-solid fa-people-group icon"></i>
+                    <h3>함께 읽기</h3>
+                    <p>혼자 읽기 힘든 책도 친구들과 함께라면 즐겁습니다.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fa-solid fa-comments icon"></i>
+                    <h3>생각 나누기</h3>
+                    <p>다양한 시각을 공유하며 사고의 폭을 넓힙니다.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fa-solid fa-pen-fancy icon"></i>
+                    <h3>글쓰기</h3>
+                    <p>나만의 생각을 글로 정리하며 표현력을 기릅니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teacher Introduction Section -->
+    <section id="teacher" class="section teacher-section">
+        <div class="container">
+            <h2 class="section-title">지도교사 소개</h2>
+            <div class="teacher-profile">
+                <div class="teacher-avatar">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                </div>
+                <div class="teacher-info">
+                    <h3>독서 지도 교사</h3>
+                    <p class="teacher-desc board-text">
+                        "한 권의 책이 우리 내면의 얼어붙은 바다를 깨는 도끼가 되어야 한다."<br>
+                        학생들과 함께 읽고 고민하며 성장하는 선생님입니다.
+                    </p>
+                    <div class="teacher-favorites">
+                        <h4><i class="fa-solid fa-feather-pointed"></i> 인생 작가와 책</h4>
+                        <div class="favorite-item">
+                            <strong>헤르만 헤세 (Hermann Hesse)</strong>
+                            <p>내면으로의 길을 탐구하고 자아를 찾아가는 여정을 그린 작가</p>
+                        </div>
+                        <ul class="favorite-books">
+                            <li><i class="fa-solid fa-book-open"></i> 싯다르타</li>
+                            <li><i class="fa-solid fa-book-open"></i> 수레바퀴 아래서</li>
+                            <li><i class="fa-solid fa-book-open"></i> 데미안</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reading Section Preview -->
+    <section id="reading" class="section reading-section">
+        <div class="container">
+            <h2 class="section-title">이달의 선정 도서</h2>
+            <div class="reading-card">
+                <div class="book-cover">
+                    <!-- Placeholder color for book cover -->
+                    <div class="cover-art">1월</div>
+                </div>
+                <div class="book-info">
+                    <span class="tag">Jan 2026</span>
+                    <h3>데미안</h3>
+                    <p class="author">헤르만 헤세 저</p>
+                    <p class="description">"새는 알을 깨고 나온다. 알은 세계다."<br>자아를 찾아 떠나는 싱클레어의 성장 이야기.</p>
+                    <button class="btn btn-outline">활동 가이드 다운로드</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="section community-section">
+        <div class="container">
+            <h2 class="section-title">커뮤니티</h2>
+            <div class="community-grid">
+                <!-- Announcements -->
+                <div class="community-col">
+                    <h3><i class="fa-solid fa-bullhorn"></i> 공지사항</h3>
+                    <ul class="notice-list">
+                        <li>
+                            <span class="notice-date">1.09</span>
+                            <a href="#">1월 독서 모임 일정 변경 안내</a>
+                        </li>
+                        <li>
+                            <span class="notice-date">1.02</span>
+                            <a href="#">신입 부원 모집 시작 (~1/20)</a>
+                        </li>
+                        <li>
+                            <span class="notice-date">12.28</span>
+                            <a href="#">겨울방학 독서 캠프 참가자 모집</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Recent Reviews -->
+                <div class="community-col">
+                    <h3><i class="fa-solid fa-pen-nib"></i> 최근 서평</h3>
+                    <div class="review-preview">
+                        <div class="review-item">
+                            <p class="review-text">"싱클레어의 고민이 마치 내 이야기처럼 느껴졌다..."</p>
+                            <span class="review-author">- 2학년 김** (데미안)</span>
+                        </div>
+                        <div class="review-item">
+                            <p class="review-text">"마지막 장면에서 큰 감동을 받았습니다."</p>
+                            <span class="review-author">- 1학년 이** (모모)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2 class="section-title">활동 갤러리</h2>
+            <div class="gallery-grid">
+                <!-- Using placeholder colored blocks for images -->
+                <div class="gallery-item item-1">
+                    <div class="overlay">
+                        <span>독서 토론회</span>
+                    </div>
+                </div>
+                <div class="gallery-item item-2">
+                    <div class="overlay">
+                        <span>문학 기행</span>
+                    </div>
+                </div>
+                <div class="gallery-item item-3">
+                    <div class="overlay">
+                        <span>작가와의 만남</span>
+                    </div>
+                </div>
+                <div class="gallery-item item-4">
+                    <div class="overlay">
+                        <span>도서관 봉사</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-more">
+                <button class="btn btn-outline">더 많은 사진 보기</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 A중학교 독서 동아리. All rights reserved.</p>
+            <p class="teacher-contact">지도교사: 선생님 (contact@example.com)</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
